@@ -1,8 +1,5 @@
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\Kwick.MySql.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\Kwick.MySql.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.csprojResolveAssemblyReference.cache
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.dll
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.pdb
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\FluentNHibernate.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\Iesi.Collections.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\Kwick.Data.dll
@@ -11,3 +8,6 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\FluentNHibernate.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\Iesi.Collections.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\bin\Debug\NHibernate.xml
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.MySql\obj\Debug\Kwick.MySql.pdb

@@ -1,8 +1,5 @@
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Hack.Common.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Hack.Common.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.dll
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\FluentNHibernate.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Iesi.Collections.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\log4net.dll
@@ -14,7 +11,9 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Iesi.Collections.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\log4net.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\NHibernate.xml
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Ninject.pdb
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Ninject.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\System.Web.Http.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.csprojResolveAssemblyReference.cache
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.pdb
