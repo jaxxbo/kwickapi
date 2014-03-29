@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.Api", "Kwick.Api\Kwick.Api.csproj", "{FAEA02D2-26C4-487B-A638-8282C918369E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.Data", "Kwick.Data\Kwick.Data.csproj", "{6B101283-8C59-46D3-833D-F56B34B3737D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.Data.Model", "Kwick.Data\Kwick.Data.Model.csproj", "{6B101283-8C59-46D3-833D-F56B34B3737D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.MySql", "Kwick.MySql\Kwick.MySql.csproj", "{2110B54E-3C9B-4CE5-B99E-58C774837D69}"
 EndProject
