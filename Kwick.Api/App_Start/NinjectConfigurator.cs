@@ -82,9 +82,8 @@ namespace Kwick.Api.App_Start
         {
             var sessionFactory = FluentNHibernate
                 .Cfg.Fluently.Configure()
-                .Database(
-                    MsSqlConfiguration.MsSql2008.ConnectionString(
-                        c => c.FromConnectionStringWithKey("enTourAPIDb")))
+                .Database(MySQLConfiguration.Standard.ConnectionString(
+                        c => c.FromConnectionStringWithKey("hackdb")))
                 .CurrentSessionContext("web")
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Kwick.MySql.KUserMap>())
                 .BuildSessionFactory();
