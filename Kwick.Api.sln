@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.Api", "Kwick.Api\Kwick.Api.csproj", "{FAEA02D2-26C4-487B-A638-8282C918369E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.Data", "Kwick.Data\Kwick.Data.csproj", "{6B101283-8C59-46D3-833D-F56B34B3737D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kwick.MySql", "Kwick.MySql\Kwick.MySql.csproj", "{2110B54E-3C9B-4CE5-B99E-58C774837D69}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Hack.Database", "Hack.Database\Hack.Database.sqlproj", "{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hack.Common", "Hack.Common\Hack.Common.csproj", "{B85E3F30-EA37-4270-9D09-721BE5E0B6DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAEA02D2-26C4-487B-A638-8282C918369E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAEA02D2-26C4-487B-A638-8282C918369E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAEA02D2-26C4-487B-A638-8282C918369E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAEA02D2-26C4-487B-A638-8282C918369E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B101283-8C59-46D3-833D-F56B34B3737D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B101283-8C59-46D3-833D-F56B34B3737D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B101283-8C59-46D3-833D-F56B34B3737D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B101283-8C59-46D3-833D-F56B34B3737D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2110B54E-3C9B-4CE5-B99E-58C774837D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2110B54E-3C9B-4CE5-B99E-58C774837D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2110B54E-3C9B-4CE5-B99E-58C774837D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2110B54E-3C9B-4CE5-B99E-58C774837D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2E5802-F2D6-43A0-B198-8C3CD8C12867}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B85E3F30-EA37-4270-9D09-721BE5E0B6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B85E3F30-EA37-4270-9D09-721BE5E0B6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B85E3F30-EA37-4270-9D09-721BE5E0B6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B85E3F30-EA37-4270-9D09-721BE5E0B6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
