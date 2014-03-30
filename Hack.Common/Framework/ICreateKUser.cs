@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Kwick.Data;
 
-namespace Kwick.Data
+namespace Hack.Common.Framework
 {
-    public class Class1
+    public interface ICreateKUser
     {
+        KUser CreateUser(TwilioRequest trequest);
     }
 }

@@ -1,6 +1,12 @@
 using System.Web.Http;
 using FluentNHibernate.Cfg.Db;
+using FluentNHibernate.Conventions.Instances;
 using Hack.Common;
+using Hack.Common.Fetchers;
+using Hack.Common.Framework;
+using Hack.Common.Helpers;
+using Kwick.Data;
+using log4net;
 using NHibernate;
 using NHibernate.Context;
 using Ninject.Activation;
@@ -93,6 +99,15 @@ namespace Kwick.Api.App_Start
             ConfigureNHibernate(container);
             ConfigureLog4net(container);
 
+            container.Bind<ICreateKUser>().To<CreateKUser>();
+            container.Bind<IBodyParser>().To<BodyParser>();
+            container.Bind<IActionExceptionHandler>().To<ActionExceptionHandler>();
+            container.Bind<IExceptionManager>().To<ExceptionManager>();
+            container.Bind<IActionLogHelper>().To<ActionLogHelper>();
+            container.Bind<IActionTransactionHelper>().To<ActionTransactionHelper>();
+            container.Bind<IExceptionMessageFormatter>().To<ExceptionMessageFormatter>();
+            container.Bind<IKUserFetcher>().To<KUserFetcher>();
+
         }
 
         /// <summary>
@@ -102,8 +117,8 @@ namespace Kwick.Api.App_Start
         private static void ConfigureLog4net(IKernel container)
         {
             log4net.Config.XmlConfigurator.Configure();
-            //var loggerForWebSite = LogManager.GetLogger("enTourWeb");
-            //container.Bind<ILog>().ToConstant(loggerForWebSite);
+            var loggerForWebSite = LogManager.GetLogger("hackweb");
+            container.Bind<ILog>().ToConstant(loggerForWebSite);
         }
 
         /// <summary>

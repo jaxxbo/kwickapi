@@ -49,8 +49,8 @@ namespace Kwick.Api.App_Start
         private void ConfigureLog4net(IKernel container)
         {
             log4net.Config.XmlConfigurator.Configure();
-            //var loggerForWebSite = LogManager.GetLogger("enTourWeb");
-            //container.Bind<ILog>().ToConstant(loggerForWebSite);
+            var loggerForWebSite = LogManager.GetLogger("hackweb");
+            container.Bind<ILog>().ToConstant(loggerForWebSite);
         }
 
         /// <summary>

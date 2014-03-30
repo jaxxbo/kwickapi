@@ -51,3 +51,8 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.xml
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.xml

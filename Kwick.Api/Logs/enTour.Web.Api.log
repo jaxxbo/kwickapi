@@ -1,0 +1,123 @@
+2014-03-30 01:25:25,952 DEBUG[173] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:25:49,859 DEBUG[173] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:26:14,623 DEBUG[168] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:26:40,774 ERROR[168] hackweb - Exception occured:
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: startIndex
+   at System.String.IndexOf(String value, Int32 startIndex, Int32 count, StringComparison comparisonType)
+   at Hack.Common.Framework.BodyParser.GetSwitchValue(String switchkey, String body) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\BodyParser.cs:line 15
+   at Hack.Common.Framework.CreateKUser.CreateUser(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\CreateKUser.cs:line 24
+   at Kwick.Api.Controllers.TextServicesController.Post(HttpRequestMessage request, TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\Controllers\TextServicesController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+2014-03-30 01:26:40,780 DEBUG[168] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:26:43,147 DEBUG[173] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:28:12,158 ERROR[173] NHibernate.Transaction.AdoTransaction - Rollback failed
+MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at MySql.Data.MySqlClient.MySqlTransaction.Rollback()
+   at NHibernate.Transaction.AdoTransaction.Rollback()
+2014-03-30 01:36:26,680 DEBUG[175] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:38:31,734 ERROR[175] NHibernate.AdoNet.AbstractBatcher - Could not execute command: INSERT INTO `KUser` (Mobile, Email) VALUES (?p0, ?p1)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered during command execution. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Fatal error encountered attempting to read the resultset. ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Reading from the stream has failed. ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2014-03-30 01:38:31,738 ERROR[175] NHibernate.Util.ADOExceptionReporter - Fatal error encountered during command execution.
+2014-03-30 01:38:31,738 ERROR[175] NHibernate.Util.ADOExceptionReporter - Fatal error encountered attempting to read the resultset.
+2014-03-30 01:38:31,738 ERROR[175] NHibernate.Util.ADOExceptionReporter - Reading from the stream has failed.
+2014-03-30 01:38:31,738 ERROR[175] NHibernate.Util.ADOExceptionReporter - Attempted to read past the end of the stream.
+2014-03-30 01:38:31,751 ERROR[175] NHibernate.Transaction.AdoTransaction - Rollback failed
+System.InvalidOperationException: Connection must be valid and open to rollback transaction
+   at MySql.Data.MySqlClient.MySqlTransaction.Rollback()
+   at NHibernate.Transaction.AdoTransaction.Rollback()
+2014-03-30 01:39:41,571 DEBUG[175] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:39:59,370 ERROR[175] hackweb - Exception occured:
+System.InvalidCastException: Unable to cast object of type 'System.Int64' to type 'Kwick.Data.KUser'.
+   at Hack.Common.Framework.CreateKUser.CreateUser(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\CreateKUser.cs:line 30
+   at Kwick.Api.Controllers.TextServicesController.Post(HttpRequestMessage request, TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\Controllers\TextServicesController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+2014-03-30 01:39:59,375 DEBUG[175] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:42:00,855 DEBUG[168] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:42:31,448 ERROR[168] NHibernate.AdoNet.AbstractBatcher - Could not execute command: INSERT INTO `Ledger` (KUserId, TransactionType, Money, Description, MessageSid) VALUES (?p0, ?p1, ?p2, ?p3, ?p4)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'MessageSid' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+2014-03-30 01:42:31,481 ERROR[168] NHibernate.Util.ADOExceptionReporter - Unknown column 'MessageSid' in 'field list'
+2014-03-30 01:43:24,381 ERROR[168] hackweb - Exception occured:
+NHibernate.Exceptions.GenericADOException: could not insert: [Kwick.Data.Ledger][SQL: INSERT INTO `Ledger` (KUserId, TransactionType, Money, Description, MessageSid) VALUES (?, ?, ?, ?, ?)] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'MessageSid' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteNonQuery(IDbCommand cmd)
+   at NHibernate.Id.Insert.AbstractSelectingDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   --- End of inner exception stack trace ---
+   at NHibernate.Id.Insert.AbstractSelectingDelegate.PerformInsert(SqlCommandInfo insertSQL, ISessionImplementor session, IBinder binder)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Boolean[] notNull, SqlCommandInfo sql, Object obj, ISessionImplementor session)
+   at NHibernate.Persister.Entity.AbstractEntityPersister.Insert(Object[] fields, Object obj, ISessionImplementor session)
+   at NHibernate.Action.EntityIdentityInsertAction.Execute()
+   at NHibernate.Engine.ActionQueue.Execute(IExecutable executable)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSaveOrReplicate(Object entity, EntityKey key, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.PerformSave(Object entity, Object id, IEntityPersister persister, Boolean useIdentityColumn, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.AbstractSaveEventListener.SaveWithGeneratedId(Object entity, String entityName, Object anything, IEventSource source, Boolean requiresImmediateIdAccess)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveEventListener.SaveWithGeneratedOrRequestedId(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.EntityIsTransient(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveEventListener.PerformSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Event.Default.DefaultSaveOrUpdateEventListener.OnSaveOrUpdate(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.FireSave(SaveOrUpdateEvent event)
+   at NHibernate.Impl.SessionImpl.Save(Object obj)
+   at Hack.Common.Framework.CreateKUser.CreateUser(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\CreateKUser.cs:line 44
+   at Kwick.Api.Controllers.TextServicesController.Post(HttpRequestMessage request, TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\Controllers\TextServicesController.cs:line 37
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+2014-03-30 01:43:24,384 DEBUG[168] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:44:09,458 DEBUG[164] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:45:31,307 DEBUG[164] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:45:54,608 DEBUG[171] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:46:05,183 DEBUG[171] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post

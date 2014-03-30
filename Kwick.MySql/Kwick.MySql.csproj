@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="KUserMap.cs" />
+    <Compile Include="LedgerMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VersionedClassMap.cs" />
   </ItemGroup>

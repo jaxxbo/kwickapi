@@ -17,3 +17,7 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Kwick.Data.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Kwick.Data.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\System.Web.Http.WebHost.xml
