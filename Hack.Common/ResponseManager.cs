@@ -15,7 +15,7 @@ namespace Hack.Common
                 case "NEWACCOUNT":
                     return new Response
                     {
-                        Message = "Send REGISTER to create your KWICK money account. Send INFO to see more commands you can use."
+                        Message = "Send REGISTER to create your KWICK money account."
                     };
                 case "HELP":
                     return new Response
@@ -25,7 +25,7 @@ namespace Hack.Common
                 case "REGISTER":
                     return new Response
                     {
-                        Message = "Congratulations on your new bank account. You are credited a Joining Bonus $10. Message BAL to view balance. HIST = history"
+                        Message = "Congratulations on your new bank account. You are credited a joining bonus $10.00; Message BAL to view balance. Hist = history. MORE = more commands"
                     };
 
                 case "INCORRECTPAY":
@@ -33,7 +33,16 @@ namespace Hack.Common
                     {
                         Message = "Incorrect PAY parameters. Send PAY <10-digit-mobilenumber> <amount-only-numbers>. No spaces or dashes for mobile number."
                     };
-
+                case "MORE":
+                    return new Response
+                    {
+                        Message = "More commands are REGISTER, PAY, GAME"
+                    };
+                case "GAME":
+                    return new Response
+                    {
+                        Message = "Really? Please focus on the presentation :)"
+                    };
                 case "PAYMENTSENT":
                     return new Response
                     {
@@ -47,7 +56,7 @@ namespace Hack.Common
                 default:
                     return new Response
                     {
-                        Message = "Send INFO to see more commands you can use."
+                        Message = "Send MORE to see more commands you can use."
                     };
             }
         }

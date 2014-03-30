@@ -35,7 +35,11 @@ namespace Hack.Common.Framework
 
             if (_bodyParser.CommandExists("PAY", trequest.Body)) return PayUser(trequest);
 
-            return new Response {Message = string.Format("Send HELP for more menu options")};
+            if (_bodyParser.CommandExists("MORE", trequest.Body)) return _responseManager.GetResponse("MORE", null);
+
+            if (_bodyParser.CommandExists("GAME", trequest.Body)) return _responseManager.GetResponse("GAME", null);
+
+            return new Response {Message = string.Format("Send MORE for more menu options")};
         }
 
         private Response PayUser(TwilioRequest trequest)
@@ -44,7 +48,7 @@ namespace Hack.Common.Framework
             var allstrings = trequest.Body.Split(Convert.ToChar(" "));
             if ((allstrings.Count() != 3) || (allstrings[1].Length != 10) || (!decimal.TryParse(allstrings[2], out amount)))
                 return _responseManager.GetResponse("INCORRECTPAY", null);
-            if (amount > GetBalance(trequest)) return _responseManager.GetResponse("INSUFFICIENTBALANCE", null);
+            if (amount > GetBalance(trequest)) return _responseManager.GetResponse("INSUFFICIENTBALANCE", new Dictionary<string, string> { { "amount", Convert.ToString(amount) } });
             var payeeMobile = allstrings[1];
             var payee = _kUserFetcher.GetKUser(payeeMobile) ?? _createKUser.CreateUser(payeeMobile);
 
@@ -68,8 +72,9 @@ namespace Hack.Common.Framework
                 Description = string.Format("Receiving money from {0:C}", trequest.To)
             };
 
-            _session.Save(payee);
+            //_session.Save(payee);
             _session.Save(payerDr);
+            _session.Save(payeeCr);
 
             _commClient.SendMessage(payee.Mobile, string.Format("You have received {0:C} from {1}",amount, trequest.From));
 
