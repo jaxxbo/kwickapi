@@ -11,5 +11,6 @@ namespace Hack.Common.Framework
         Response ProcessCommands(TwilioRequest trequest);
         Response ProcessCommand(string command, TwilioRequest trequest);
         decimal GetBalance(TwilioRequest trequest);
+        decimal GetBalance(string mobile);
     }
 }

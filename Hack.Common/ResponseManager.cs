@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Hack.Common
 {
@@ -25,7 +22,7 @@ namespace Hack.Common
                 case "REGISTER":
                     return new Response
                     {
-                        Message = "Congratulations on your new bank account. You are credited a joining bonus $10.00; Message BAL to view balance. Hist = history. MORE = more commands"
+                        Message = "Congratulations on your new bank account. You are credited a joining bonus $10.00; Message BAL to view balance. MORE = more commands"
                     };
 
                 case "INCORRECTPAY":
@@ -46,12 +43,12 @@ namespace Hack.Common
                 case "PAYMENTSENT":
                     return new Response
                     {
-                        Message = string.Format("Your payment of {0:C}, has been sent. Your current bal is {1:C}", dict["amount"], dict["bal"])
+                        Message = string.Format("Your payment of {0:C}, has been sent. Your current bal is {1:C}", Convert.ToDecimal(dict["amount"]), Convert.ToDecimal(dict["bal"]))
                     };
                 case "INSUFFICIENTBALANCE":
                     return new Response
                     {
-                        Message = string.Format("You dont have enought balance for this payment amount of {0:C}", dict["amount"])
+                        Message = string.Format("You dont have enought balance for this payment amount of {0:C}", Convert.ToDecimal(dict["amount"]))
                     };
                 default:
                     return new Response

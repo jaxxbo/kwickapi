@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="IVersionedModelObject.cs" />
     <Compile Include="KUser.cs" />
+    <Compile Include="KUserView.cs" />
     <Compile Include="Ledger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

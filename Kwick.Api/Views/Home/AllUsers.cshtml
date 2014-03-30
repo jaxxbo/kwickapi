@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Kwick.Data.KUserView>
+@{
+    ViewBag.Title = "AllUsers";
+}
+
+<h2>All Kwick Users</h2>
+
+<table id="tblPoilistings" class="display">
+    <thead>
+        <tr>
+            <th>Mobile 
+            </th>
+            <th>Balance
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Mobile
+                </td>
+                <td>@string.Format("{0:C}", item.Balance)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    @Html.ActionLink("START KWICK-STARTER CAMPAIGN FOR COLIN", "Startcampaign")
+</p>
+
+

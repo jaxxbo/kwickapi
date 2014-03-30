@@ -110,6 +110,14 @@ namespace Hack.Common.Framework
             return userLedgers.Sum();
         }
 
+        public decimal GetBalance(string mobile)
+        {
+            var us = _session.QueryOver<KUser>().Where(u => u.Mobile == mobile).List().FirstOrDefault();
+            List<decimal> userLedgers = _session.QueryOver<Ledger>().Where(u => u.KUserId == us.KUserId).List().Select(GetTransactionNumbers).ToList();
+
+            return userLedgers.Sum();
+        }
+
         private Response SendBalance(TwilioRequest trequest)
         {
             var us = _session.QueryOver<KUser>().Where(u => u.Mobile == trequest.From).List().FirstOrDefault();
