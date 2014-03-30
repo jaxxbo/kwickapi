@@ -1,9 +1,5 @@
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\bin\Debug\Hack.Database.dacpac
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\bin\Debug\Hack.Database.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\bin\Debug\Hack.Database.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\Model.xml
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\refactor.xml
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\postdeploy.sql
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\predeploy.sql
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\Hack.Database.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Database\obj\Debug\Hack.Database.pdb
