@@ -21,3 +21,6 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\obj\Debug\Hack.Common.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Twilio.Api.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Twilio.Api.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\bin\Debug\Twilio.Api.xml

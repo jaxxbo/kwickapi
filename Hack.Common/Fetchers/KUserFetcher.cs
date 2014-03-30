@@ -25,7 +25,7 @@ namespace Hack.Common.Fetchers
         {
             var kuser = _session.QueryOver<KUser>().Where(x => x.Mobile == mobile).List().FirstOrDefault();
 
-            if(kuser == null) _exceptionManager.ThrowException(HttpStatusCode.NotFound, mobile + " not found");
+            if(kuser == null) return null;
 
             return kuser;
         }

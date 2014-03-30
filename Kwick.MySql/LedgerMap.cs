@@ -13,6 +13,7 @@ namespace Kwick.MySql
         {
             Id(x => x.TransactionId);
             Map(x => x.KUserId).Not.Nullable();
+            Map(x => x.RelatedKUserId).Not.Nullable();
             Map(x => x.TransactionType).Not.Nullable();
             Map(x => x.Money).Not.Nullable();
             Map(x => x.Description);

@@ -14,6 +14,7 @@ namespace Kwick.MySql
             Id(x => x.KUserId);
             Map(x => x.Mobile).Not.Nullable();
             Map(x => x.Email);
+            Map(x => x.Approved);
         }
     }
 }

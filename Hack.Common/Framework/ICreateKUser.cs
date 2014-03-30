@@ -10,5 +10,6 @@ namespace Hack.Common.Framework
     public interface ICreateKUser
     {
         KUser CreateUser(TwilioRequest trequest);
+        KUser CreateUser(string mobile);
     }
 }

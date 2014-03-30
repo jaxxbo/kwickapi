@@ -10,8 +10,9 @@ namespace Kwick.Data
     {
         public virtual long TransactionId { get; set; }
         public virtual long KUserId { get; set; }
+        public virtual long RelatedKUserId { get; set; }
         public virtual string TransactionType { get; set; }
-        public virtual long Money { get; set; }
+        public virtual decimal Money { get; set; }
         public virtual string Description { get; set; }
         public virtual string MessageSid { get; set; }
     }

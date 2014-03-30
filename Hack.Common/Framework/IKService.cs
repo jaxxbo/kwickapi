@@ -9,5 +9,7 @@ namespace Hack.Common.Framework
     public interface IKService
     {
         Response ProcessCommands(TwilioRequest trequest);
+        Response ProcessCommand(string command, TwilioRequest trequest);
+        decimal GetBalance(TwilioRequest trequest);
     }
 }

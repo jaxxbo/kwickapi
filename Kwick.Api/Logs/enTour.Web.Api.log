@@ -196,3 +196,51 @@ NHibernate.Exceptions.GenericADOException: could not insert: [Kwick.Data.Ledger]
 }
 2014-03-30 02:54:17,375 DEBUG[161] hackweb - Hack.Common.TwilioRequest
 2014-03-30 02:54:17,966 DEBUG[161] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:49:33,696 DEBUG[65] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:49:34,722 DEBUG[65] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:49:43,164 DEBUG[12] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:49:44,071 DEBUG[12] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:50:20,922 DEBUG[12] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:50:47,117 DEBUG[12] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:53:06,367 DEBUG[65] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:53:07,012 DEBUG[65] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:20,609 DEBUG[84] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:21,276 DEBUG[84] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:31,836 DEBUG[65] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:32,765 DEBUG[65] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:39,356 DEBUG[38] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 10:57:39,945 DEBUG[38] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:48:55,759 DEBUG[93] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:48:57,717 DEBUG[93] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:50:20,771 DEBUG[93] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:50:25,059 DEBUG[93] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:51:19,208 DEBUG[161] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:51:47,904 DEBUG[161] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:52:25,995 DEBUG[93] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:52:27,352 DEBUG[93] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:53:29,616 DEBUG[155] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:53:31,626 ERROR[155] hackweb - Exception occured:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hack.Common.Framework.KwuickService.PayUser(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\KwuickService.cs:line 50
+   at Hack.Common.Framework.KwuickService.ProcessCommands(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\KwuickService.cs:line 36
+   at Kwick.Api.Controllers.TextServicesController.Post(HttpRequestMessage request, TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\Controllers\TextServicesController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+2014-03-30 12:53:31,652 DEBUG[155] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:54:46,821 DEBUG[93] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 12:56:01,683 ERROR[93] hackweb - Exception occured:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Hack.Common.Framework.KwuickService.PayUser(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\KwuickService.cs:line 50
+   at Hack.Common.Framework.KwuickService.ProcessCommands(TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Hack.Common\Framework\KwuickService.cs:line 36
+   at Kwick.Api.Controllers.TextServicesController.Post(HttpRequestMessage request, TwilioRequest trequest) in c:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\Controllers\TextServicesController.cs:line 55
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   at System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+2014-03-30 12:56:01,684 DEBUG[93] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 13:00:38,303 DEBUG[156] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 13:00:44,584 DEBUG[156] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post

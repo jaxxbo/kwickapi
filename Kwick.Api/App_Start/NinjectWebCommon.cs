@@ -108,6 +108,8 @@ namespace Kwick.Api.App_Start
             container.Bind<IExceptionMessageFormatter>().To<ExceptionMessageFormatter>();
             container.Bind<IKUserFetcher>().To<KUserFetcher>();
             container.Bind<IKService>().To<KwuickService>();
+            container.Bind<IResponseManager>().To<ResponseManager>();
+            container.Bind<ICommClient>().To<TwilioClient>();
 
         }
 

@@ -21,31 +21,35 @@ namespace Kwick.Api.Controllers
         private readonly ICreateKUser _createKUser;
         private readonly ILog _logger;
         private readonly IKService _kService;
+        private readonly IBodyParser _bodyParser;
 
-        public TextServicesController(ISession session, ICreateKUser createKUser, ILog logger, IKService kService)
+        public TextServicesController(ISession session, ICreateKUser createKUser, ILog logger, IKService kService, IBodyParser bodyParser)
         {
             _session = session;
             _createKUser = createKUser;
             _logger = logger;
             _kService = kService;
+            _bodyParser = bodyParser;
         }
 
         // POST api/values
         public HttpResponseMessage Post(HttpRequestMessage request, TwilioRequest trequest)
         {
-            _logger.Debug(request);
-            _logger.Debug(trequest);
             Response tresp = null;
             var kuser = _session.QueryOver<KUser>().Where(x => x.Mobile == trequest.From).List().FirstOrDefault();
 
             //New acccount flow
             if (kuser == null)
             {
-                 var user = _createKUser.CreateUser(trequest);
-                tresp = new Response
+                if (_bodyParser.CommandExists("register", trequest.Body))
+                    tresp = _kService.ProcessCommand("register", trequest);
+                else
                 {
-                    Message = "Congratulations on your new bank account. You are credited a Joining Bonus $10. Message BAL to view balance. HIST = history"
-                };
+                    tresp = _kService.ProcessCommand("newaccount", trequest);
+                }
+                var responsec = request.CreateResponse(HttpStatusCode.OK, tresp, new XmlMediaTypeFormatter());
+                //response.Headers.Add("Location", '/api/users');
+                return responsec;
             }
 
             tresp = _kService.ProcessCommands(trequest);
@@ -57,5 +61,5 @@ namespace Kwick.Api.Controllers
         }
     }
 
-    
+
 }
