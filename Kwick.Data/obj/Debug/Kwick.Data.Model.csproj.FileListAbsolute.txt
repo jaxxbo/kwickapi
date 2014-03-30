@@ -2,4 +2,3 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Data\bin\Debug\
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Data\bin\Debug\Kwick.Data.pdb
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Data\obj\Debug\Kwick.Data.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Data\obj\Debug\Kwick.Data.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Data\obj\Debug\Kwick.Data.Model.csprojResolveAssemblyReference.cache

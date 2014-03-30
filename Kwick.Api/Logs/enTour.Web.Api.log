@@ -121,3 +121,78 @@ NHibernate.Exceptions.GenericADOException: could not insert: [Kwick.Data.Ledger]
 2014-03-30 01:45:31,307 DEBUG[164] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
 2014-03-30 01:45:54,608 DEBUG[171] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
 2014-03-30 01:46:05,183 DEBUG[171] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:55:10,439 DEBUG[38] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 01:55:10,877 DEBUG[38] hackweb - Method: POST, RequestUri: 'http://localhost:53169/api/textservices', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: sdch
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: fr; q=0.6
+  Host: localhost:53169
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 6.3; WOW64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/33.0.1750.154
+  User-Agent: Safari/537.36
+  Origin: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm
+  Content-Length: 147
+  Content-Type: application/json
+}
+2014-03-30 01:55:10,880 DEBUG[38] hackweb - Hack.Common.TwilioRequest
+2014-03-30 01:55:13,223 DEBUG[38] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 02:53:07,803 DEBUG[161] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 02:53:08,200 DEBUG[161] hackweb - Method: POST, RequestUri: 'http://localhost:53169/api/textservices', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: sdch
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: fr; q=0.6
+  Host: localhost:53169
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 6.3; WOW64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/33.0.1750.154
+  User-Agent: Safari/537.36
+  Origin: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm
+  Content-Length: 140
+  Content-Type: application/json
+}
+2014-03-30 02:53:08,200 DEBUG[161] hackweb - Hack.Common.TwilioRequest
+2014-03-30 02:53:12,716 DEBUG[161] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 02:54:16,919 DEBUG[161] hackweb - ENTERING Kwick.Api.Controllers.TextServicesController::Post
+2014-03-30 02:54:17,375 DEBUG[161] hackweb - Method: POST, RequestUri: 'http://localhost:53169/api/textservices', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Cache-Control: no-cache
+  Connection: keep-alive
+  Accept: */*
+  Accept-Encoding: gzip
+  Accept-Encoding: deflate
+  Accept-Encoding: sdch
+  Accept-Language: en-US
+  Accept-Language: en; q=0.8
+  Accept-Language: fr; q=0.6
+  Host: localhost:53169
+  User-Agent: Mozilla/5.0
+  User-Agent: (Windows NT 6.3; WOW64)
+  User-Agent: AppleWebKit/537.36
+  User-Agent: (KHTML, like Gecko)
+  User-Agent: Chrome/33.0.1750.154
+  User-Agent: Safari/537.36
+  Origin: chrome-extension://fdmmgilgnpjigdojojpjoooidkmcomcm
+  Content-Length: 140
+  Content-Type: application/json
+}
+2014-03-30 02:54:17,375 DEBUG[161] hackweb - Hack.Common.TwilioRequest
+2014-03-30 02:54:17,966 DEBUG[161] hackweb - EXITING Kwick.Api.Controllers.TextServicesController::Post

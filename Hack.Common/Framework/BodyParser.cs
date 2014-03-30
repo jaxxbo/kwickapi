@@ -23,5 +23,14 @@ namespace Hack.Common.Framework
 
             //return value;
         }
+
+        public bool CommandExists(string switchkey, string body)
+        {
+            var allstrings = body.Split(Convert.ToChar(" "));
+
+            var index = allstrings.ToList().FindIndex(x => string.Equals(x, switchkey, StringComparison.CurrentCultureIgnoreCase));
+
+            return index >= 0;
+        }
     }
 }

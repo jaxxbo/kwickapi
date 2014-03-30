@@ -9,6 +9,7 @@ using Hack.Common;
 using Hack.Common.Framework;
 using Hack.Common.Helpers;
 using Kwick.Data;
+using log4net;
 using NHibernate;
 
 namespace Kwick.Api.Controllers
@@ -18,16 +19,22 @@ namespace Kwick.Api.Controllers
     {
         private readonly ISession _session;
         private readonly ICreateKUser _createKUser;
+        private readonly ILog _logger;
+        private readonly IKService _kService;
 
-        public TextServicesController(ISession session, ICreateKUser createKUser)
+        public TextServicesController(ISession session, ICreateKUser createKUser, ILog logger, IKService kService)
         {
             _session = session;
             _createKUser = createKUser;
+            _logger = logger;
+            _kService = kService;
         }
 
         // POST api/values
         public HttpResponseMessage Post(HttpRequestMessage request, TwilioRequest trequest)
         {
+            _logger.Debug(request);
+            _logger.Debug(trequest);
             Response tresp = null;
             var kuser = _session.QueryOver<KUser>().Where(x => x.Mobile == trequest.From).List().FirstOrDefault();
 
@@ -41,6 +48,8 @@ namespace Kwick.Api.Controllers
                 };
             }
 
+            tresp = _kService.ProcessCommands(trequest);
+
             //
             var response = request.CreateResponse(HttpStatusCode.OK, tresp, new XmlMediaTypeFormatter());
             //response.Headers.Add("Location", '/api/users');
@@ -48,8 +57,5 @@ namespace Kwick.Api.Controllers
         }
     }
 
-    public class Response
-    {
-        public string Message { get; set; }
-    }
+    
 }

@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Hack.Common.Framework
 {
-    public interface IBodyParser
+    public interface IKService
     {
-        string GetSwitchValue(string switchkey, string body);
-        bool CommandExists(string switchkey, string body);
+        Response ProcessCommands(TwilioRequest trequest);
     }
 }

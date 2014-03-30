@@ -107,6 +107,7 @@ namespace Kwick.Api.App_Start
             container.Bind<IActionTransactionHelper>().To<ActionTransactionHelper>();
             container.Bind<IExceptionMessageFormatter>().To<ExceptionMessageFormatter>();
             container.Bind<IKUserFetcher>().To<KUserFetcher>();
+            container.Bind<IKService>().To<KwuickService>();
 
         }
 

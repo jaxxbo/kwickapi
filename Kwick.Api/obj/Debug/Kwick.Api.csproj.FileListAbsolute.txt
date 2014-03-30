@@ -14,6 +14,7 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\NHibern
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.Web.Common.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.Web.Mvc.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Net.Http.Formatting.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.Helpers.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.Http.dll
@@ -25,6 +26,7 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\WebActivatorEx.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\WebGrease.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Hack.Common.pdb
@@ -37,6 +39,7 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\NHibern
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.Web.Common.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Ninject.Web.Mvc.xml
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\EntityFramework.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Newtonsoft.Json.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Net.Http.Formatting.xml
@@ -48,11 +51,8 @@ C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\System.Web.WebPages.Razor.xml
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.pdb
+C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.xml
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.csprojResolveAssemblyReference.cache
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.dll
 C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\obj\Debug\Kwick.Api.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.dll
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.dll
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\RestSharp.xml
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.pdb
-C:\Users\Jason\Google Drive\Hackathons\SWNJ 2013\Kwick.Api\Kwick.Api\bin\Twilio.Api.xml
